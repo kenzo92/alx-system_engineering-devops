@@ -27,3 +27,7 @@ ls -lan
 A script to create a directory(my_first_directory)in a parent directory (/tmp/):
 #!/bin/bash
 mkdir /tmp/my_first_directory
+
+A script that moves a file from a parent directory to a child directory:
+#!/bin/bash
+mv betty /tmp/ /tmp/my_first_directory
