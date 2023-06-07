@@ -30,4 +30,4 @@ mkdir /tmp/my_first_directory
 
 A script that moves a file from a parent directory to a child directory:
 #!/bin/bash
-mv betty /tmp/ /tmp/my_first_directory
+mv /tmp/betty /tmp/my_first_directory
