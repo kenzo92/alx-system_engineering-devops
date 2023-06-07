@@ -34,5 +34,9 @@ mv /tmp/betty /tmp/my_first_directory
 
 A script that deletes a file from a directory:
 #!/bin/bash
-rm <file-name>
+rm <file-name or file-relative-path>
+
+A script that deletes a directory:
+#!/bin/bash
+rmdir <directory name or relative path>
 
