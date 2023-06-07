@@ -48,3 +48,7 @@ A script that lists the contents of the current working directory, the parent di
 #!/bin/bash
 ls -la ./ ../ /boot
 
+A script that prints the type of a file:
+#!/bin/bash
+file <file-path>
+
