@@ -31,3 +31,8 @@ mkdir /tmp/my_first_directory
 A script that moves a file from a parent directory to a child directory:
 #!/bin/bash
 mv /tmp/betty /tmp/my_first_directory
+
+A script that deletes a file from a directory:
+#!/bin/bash
+rm <file-name>
+
