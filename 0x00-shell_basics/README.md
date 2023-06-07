@@ -40,3 +40,7 @@ A script that deletes a directory:
 #!/bin/bash
 rmdir <directory name or relative path>
 
+A script that changes from current directory to the previous one:
+#!/bin/bash
+cd -
+
