@@ -19,3 +19,7 @@ ls -l
 A script that displays the contents of the current directory in long format including the hidden files(files with names beginning with a .):
 #!/bin/bash
 ls -la
+
+A script that displays the contents of a current directory in long format(including hidden files), displaying user and group IDs in number format:
+#!/bin/bash
+ls -lan
