@@ -44,3 +44,7 @@ A script that changes from current directory to the previous one:
 #!/bin/bash
 cd -
 
+A script that lists the contents of the current working directory, the parent directory and the /boot directory in long format, and displays hidden files as well:
+#!/bin/bash
+ls -la ./ ../ /boot
+
