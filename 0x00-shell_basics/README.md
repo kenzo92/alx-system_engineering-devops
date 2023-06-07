@@ -15,3 +15,7 @@ cd $HOME
 A script that displays the current directory contents in long format:
 #!/bin/bash
 ls -l
+
+A script that displays the contents of the current directory in long format including the hidden files(files with names beginning with a .):
+#!/bin/bash
+ls -la
