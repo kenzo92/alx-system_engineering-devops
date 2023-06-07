@@ -23,3 +23,7 @@ ls -la
 A script that displays the contents of a current directory in long format(including hidden files), displaying user and group IDs in number format:
 #!/bin/bash
 ls -lan
+
+A script to create a directory(my_first_directory)in a parent directory (/tmp/):
+#!/bin/bash
+mkdir /tmp/my_first_directory
