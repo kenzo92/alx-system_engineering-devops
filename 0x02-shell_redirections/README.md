@@ -59,3 +59,14 @@ grep -c "pattern" <file-path>
 A script that displays the next 3 lines after matching the word "pattern" in file:
 #!/bin/bash
 grep -A 3 "pattern" <file-name>
+
+A script that displays all lines in a file that do not contain a particular "pattern":
+#!/bin/bash
+grep -v "pattern" <file-path>
+
+A script that displays only lines in a file that begin with letters(Including Uppercase):
+#!/bin/bash
+grep '^[[:alpha:]]' <file-path> 
+
+A script that replaces all characters A and c from input to Z and e respectively:
+tr 'Ac' 'Ze'
