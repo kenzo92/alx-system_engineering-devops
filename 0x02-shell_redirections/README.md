@@ -70,3 +70,7 @@ grep '^[[:alpha:]]' <file-path>
 
 A script that replaces all characters A and c from input to Z and e respectively:
 tr 'Ac' 'Ze'
+
+A script that  removes all letters c and C from input.:
+#!/bin/bash
+tr -d 'Cc' <piped from standard input>
