@@ -82,3 +82,11 @@ rev <input text - piped from standard input>
 A script that displays all users and their home directories, sorted by users:
 #!/bin/bash
 cut -d: -f1,2 <file-path> | sort -t: -k1
+
+A script that finds and displays all empty files and directories in the current directory and all sub-directories with the following requirements:
+-Displays only the names of the files and directories (not the entire path)
+-Displays one file per line.
+-Displays hidden files.
+-The listing ends with a new line:
+#/bin/bash
+find . -type f -name '.*' -empty -printf '%P\n' -o -type f -empty -printf '%P\n' -o -type d -empty -printf '%P\n'
