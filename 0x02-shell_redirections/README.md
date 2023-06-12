@@ -74,3 +74,7 @@ tr 'Ac' 'Ze'
 A script that  removes all letters c and C from input.:
 #!/bin/bash
 tr -d 'Cc' <piped from standard input>
+
+A script that that reverses its input.:
+#!/bin/bash
+rev <input text - piped from standard input>
