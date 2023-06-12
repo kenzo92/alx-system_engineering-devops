@@ -78,3 +78,7 @@ tr -d 'Cc' <piped from standard input>
 A script that that reverses its input.:
 #!/bin/bash
 rev <input text - piped from standard input>
+
+A script that displays all users and their home directories, sorted by users:
+#!/bin/bash
+cut -d: -f1,2 <file-path> | sort -t: -k1
