@@ -88,6 +88,9 @@ A script that finds and displays all empty files and directories in the current 
 -Displays one file per line.
 -Displays hidden files.
 -The listing ends with a new line:
+#!/bin/bash
+find . -empty | rev | cut -d \ -f 1 | rev
+OR
 #/bin/bash
 find . -type f -name '.*' -empty -printf '%P\n' -o -type f -empty -printf '%P\n' -o -type d -empty -printf '%P\n'
 
