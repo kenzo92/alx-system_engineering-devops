@@ -90,3 +90,7 @@ A script that finds and displays all empty files and directories in the current 
 -The listing ends with a new line:
 #/bin/bash
 find . -type f -name '.*' -empty -printf '%P\n' -o -type f -empty -printf '%P\n' -o -type d -empty -printf '%P\n'
+
+A script that decodes the first characters of an input file and displays the output on a lines:
+#!/bin/bash
+cut -c 1 | paste -sd '' -
